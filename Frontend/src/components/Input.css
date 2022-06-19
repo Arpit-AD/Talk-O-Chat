@@ -3,8 +3,8 @@
   /* margin: 0 5px; */
   padding: 10px;
   height: 40px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
   outline: 0;
 }
 .sendButton{
@@ -16,6 +16,6 @@
   outline: 0;
   background-color: #771100;
   color: white;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
