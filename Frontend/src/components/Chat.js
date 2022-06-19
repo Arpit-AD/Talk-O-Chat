@@ -19,8 +19,8 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
   const [users, setUsers] = useState("");
-  // const ENDPOINT = "https://react-app-chit-chat.herokuapp.com/";
-  const ENDPOINT = "http://localhost:5000/";
+  const ENDPOINT = "/";
+  // const ENDPOINT = "http://localhost:5000/";
 
   const [info, setInfo] = useState(false);
   const [error, setError] = useState();
