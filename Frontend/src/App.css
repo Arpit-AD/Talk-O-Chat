@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html{
+  overflow-x: hidden;
+}
+.appOuterContainer{
+  background: #ffffff;
+  /* background-color: white; */
+  height: 100vh;
+  background-image: linear-gradient(to right top, #dedede, #e4e4e4, #eaeaea, #f1f1f1, #f7f7f7, #f7f7f7, #f7f7f7, #f7f7f7, #f1f1f1, #eaeaea, #e4e4e4, #dedede);
+  display: flex;
+  align-items: center;
+}
+
+.heading{
+  font-family: 'Fascinate', cursive;
+  text-align: center;
+  padding: 20px;
+  /* color: white; */
+  color: black;
+  border-top-right-radius: 52px;
+  border-top-left-radius: 52px;
+}
+.appInnerContainer{
+  width: 50%;
+  border: rgb(77, 77, 77) 1px solid;
+  margin: auto;
+  padding: 15px;
+  border-radius: 52px;
+background: #f3f1f1;
+}
+@media only screen and (max-width: 947px){
+  .appInnerContainer{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 745px){
+  .appInnerContainer{
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 612px){
+  .appInnerContainer{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 486px){
+  .appInnerContainer{
+    width: 90%;
+  }
+  .heading{
+    font-size: 1.6rem;
+  }
+}

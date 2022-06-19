@@ -1,0 +1,21 @@
+.input{
+  width: calc(100% - 60px); 
+  /* margin: 0 5px; */
+  padding: 10px;
+  height: 40px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  outline: 0;
+}
+.sendButton{
+  /* font-size: 1.1rem; */
+  padding: 5px 10px;
+  height: 40px;
+  width: 60px;
+  border: 0;
+  outline: 0;
+  background-color: #771100;
+  color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}

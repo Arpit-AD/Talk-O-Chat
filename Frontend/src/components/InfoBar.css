@@ -1,0 +1,31 @@
+.infoBar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f3f1f1;
+  border-radius: 52px;
+}
+.fas{
+  color: black;
+}
+.leftInnerContainer{
+  color: black;
+}
+.rightInnerContainer{
+  display: flex;
+  height: 100%;
+}
+.rightInnerContainer i{
+  margin: 0 15px 0 0;
+}
+.rightInnerContainer a{
+  margin: 0 0 0 15px;
+}
+.rightInnerContainer div{
+  cursor: pointer;
+}
+.leave{
+  background-color: #771100 ;
+  padding: 5px;
+  border-radius: 50px;
+}
