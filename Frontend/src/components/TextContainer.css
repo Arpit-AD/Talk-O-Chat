@@ -1,5 +1,5 @@
 .users{
-  color: white;
+  color: black;
   padding: 10px;
 }
 .head{
@@ -13,6 +13,6 @@
 .user i{
   padding-right: 10px;
   color: #771100;
-  text-shadow: -0.5px -0.5px #fff;
+  text-shadow: -0.5px -0.5px black;
   font-size: 1.2rem;
 }
